@@ -28,7 +28,7 @@ const ctxItemId = "asdtedkhljLKJopiuj00-9Jl;j"
 
 chrome.contextMenus.create({
   id: ctxItemId,
-  title: "open new tab",
+  title: "Reverse search with yandex",
   type: "normal",
   contexts: ["image"],
   enabled: true,
