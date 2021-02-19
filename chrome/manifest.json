@@ -1,15 +1,14 @@
 {
-  "name": "Copy Image URL",
-  "version": "1.2",
-  "description": "Copy image source URLs from Google image search",
+  "name": "Image reverse Search",
+  "version": "1.0",
+  "description": "Reverse search images with yandex",
   "manifest_version": 2,
   "permissions": [
-    "contextMenus",
-    "clipboardWrite"
+    "contextMenus"
   ],
   "background": {
     "scripts": [
-      "cisu.js"
+      "run.js"
     ]
   },
   "icons": {
